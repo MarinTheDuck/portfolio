@@ -16,6 +16,10 @@ import tailwind from "../assets/tailwind.png";
 import cpp from "../assets/cppicon.png";
 import cproglang from "../assets/Cproglang.png";
 import csharp from "../assets/csharp.png";
+import firebase from "../assets/firebaseIcon.png";
+import flutter from "../assets/flutterIcon.webp";
+import dart from "../assets/dartIcon.png";
+import svelte from "../assets/svelteIcon.png";
 
 const Experience = () => {
   const techs = [
@@ -114,6 +118,30 @@ const Experience = () => {
       src: csharp,
       title: "C#",
       style: "shadow-violet-600",
+    },
+    {
+      id: 16,
+      src: dart,
+      title: "Dart",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 17,
+      src: flutter,
+      title: "Flutter",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 18,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-yellow-400",
+    },
+    {
+      id: 19,
+      src: svelte,
+      title: "Svelte",
+      style: "shadow-red-400",
     },
   ];
 
