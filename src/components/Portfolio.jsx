@@ -5,7 +5,7 @@ import rubik from "../assets/portfolio/rubik.png";
 import zmijica from "../assets/portfolio/zmijica.png";
 import ssviewer from "../assets/portfolio/ssviewer.png";
 import pcwip from "../assets/portfolio/pcwip.png";
-import embeddedIot from "../assets/portfolio/embeddedIot.png";
+// import embeddedIot from "../assets/portfolio/embeddedIot.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -27,22 +27,22 @@ const Portfolio = () => {
       id: 2,
       src: pcwip,
     },
+    // {
+    //   id: 3,
+    //   src: embeddedIot,
+    // },
     {
       id: 3,
-      src: embeddedIot,
-    },
-    {
-      id: 4,
       src: zmijica,
       link: "https://replit.com/@MarinLtd/Zmijica",
     },
     {
-      id: 5,
+      id: 4,
       src: rubik,
       link: "https://replit.com/@MarinLtd/Rubik2D",
     },
     {
-      id: 6,
+      id: 5,
       src: whapper,
       link: "https://replit.com/@MarinLtd/Whapper",
     },
@@ -59,7 +59,7 @@ const Portfolio = () => {
             Portfolio
           </p>
           <p className="py-6">
-            Neki od mojih projekta / neki od projekta u kojim sam sudjelovao
+            Neki od mojih projekta
           </p>
         </div>
 
@@ -83,6 +83,7 @@ const Portfolio = () => {
                     Code
                   </a>
                 )}
+
                 
                 {/* render only if link2 property exists */}
                 {portfolios[id].link2 && (

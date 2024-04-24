@@ -56,6 +56,12 @@ const About = () => {
           razmišljanje i brzu reakciju u rješavanju složenih problema vezanih uz
           hakiranje.
         </p>
+        <br />
+        <p className="text-xl">
+        <b>2023. godine sam završio Srednju strukovnu školu, Samobor i stekao zvanje: Tehničar za računarstvo.
+          Te sam upisao Tehničko veleučilište u Zagrebu, smjer Računarstvo.
+          Trenutno radim kao IT Manager na Zagrebačkoj školi ekonomije i managementa.</b>
+        </p>
       </div>
     </div>
   );

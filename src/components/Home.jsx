@@ -15,7 +15,7 @@ const Home = () => {
             Ja sam Software Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            trenutno u srednjoj školi, volim raditi aplikacije i programe. Najdraži programski jezici odnosno tehnologije su mi <b>React</b>, <b>C++</b> i <b>Kotlin</b>.
+            studiram Računarstvo na Tehničkom veleučilištu u Zagrebu, a završio sam Srednju strukovnu školu, Samobor - Smjer/Zvanje: Tehničar za računarstvo. Najdraži programski jezici odnosno tehnologije su mi <b>Node.js</b>, <b>Svelte</b> i <b>Kotlin</b>.
           </p>
 
           <div>
